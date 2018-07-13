@@ -12,7 +12,8 @@
     </head>
     <body>
         <div>
-            <h1>Welcome to Cars Project</h1>
+            <h2>Welcome {{ $name }}</h2>
+            <h3>I'm {{ $age }} years old.</h3>
         </div>
     </body>
 </html>
