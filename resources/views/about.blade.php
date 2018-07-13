@@ -6,13 +6,10 @@
         <meta name="viewport" content="width=device-width, initial-scale=1">
 
         <title>Cars</title>
-
-        <!-- Fonts -->
-        <link href="https://fonts.googleapis.com/css?family=Raleway:100,600" rel="stylesheet" type="text/css">
     </head>
     <body>
         <div>
-            <h1>Welcome to Cars Project</h1>
+            <h1>About Us</h1>
         </div>
     </body>
 </html>
