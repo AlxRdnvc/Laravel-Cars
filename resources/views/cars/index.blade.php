@@ -12,7 +12,7 @@
         <ul>
             @foreach($cars as $car)
             <li>{{ $car->title }}</li>
-            <li>{{ $car->producer }}</li>
+            <p>{{ $car->producer }}</p>
             @endforeach
         </ul>
     </body>
