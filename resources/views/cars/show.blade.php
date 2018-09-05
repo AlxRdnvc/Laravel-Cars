@@ -1,17 +1,21 @@
-<!doctype html>
-<html lang="{{ app()->getLocale() }}">
-    <head>
-        <meta charset="utf-8">
-        <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <meta name="viewport" content="width=device-width, initial-scale=1">
+@extends('layouts.master')
 
-        <title>Cars</title>
+@section('content')
 
-    </head>
-    <body>
-        <ul>
-            <p>{{ $car->title }}</p>
-            <p>{{ $car->producer }}</p>
-        </ul>
-    </body>
-</html>
+    <h2>Single Car</h2>
+    <table class="table table-dark">
+        <tr>
+            <th scope="col">Id</th>
+            <th scope="col">Title</th>
+            <th scope="col">Producer</th>
+            <th scope="col">Number of doors</th>
+        </tr>
+        <tr>
+            <td>{{ $car->id }}</td>
+            <td>{{ $car->title }}</td>
+            <td>{{ $car->producer }}</td>
+            <td>{{ $car->number_of_doors }}</td>
+        </tr>
+    </table>
+
+@endsection('content')
